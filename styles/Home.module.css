@@ -54,3 +54,35 @@
   margin-left: -8px;
   margin-top: 48px;
 }
+
+.mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 1280px) {
+  .mobile {
+    display: unset;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .topbar {
+    padding: 24px 16px;
+  }
+
+  .col {
+    padding: 40px 16px;
+  }
+
+  .title {
+    font-size: 60px;
+    font-weight: 800;
+  }
+
+  .formContainer {
+    margin-top: 32x;
+    margin-bottom: 56px;
+  }
+}

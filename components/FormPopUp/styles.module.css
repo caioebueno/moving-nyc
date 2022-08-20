@@ -15,3 +15,32 @@
     border-radius: 8px;
     padding: 32px;
 }
+
+
+.mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 1280px) {
+    .mobile {
+        display: unset;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .container {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+        padding: 16px 8px 56px 8px;
+        overflow-y: auto;
+    }
+
+    .closeButton {
+        margin: 8px;
+        margin-bottom: 16px;
+    }
+}
