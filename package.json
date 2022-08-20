@@ -9,9 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@clayui/css": "^3.69.0",
     "next": "12.2.5",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "upscale-forms": "^0.1.38"
   },
   "devDependencies": {
     "eslint": "8.22.0",

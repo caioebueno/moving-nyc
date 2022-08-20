@@ -1,0 +1,17 @@
+.background {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(20px);
+    z-index: 1;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+}
+
+.container {
+    background: #FFFBF5;
+    border-radius: 8px;
+    padding: 32px;
+}
