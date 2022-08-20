@@ -61,7 +61,7 @@
 
 @media only screen and (max-width: 1280px) {
   .mobile {
-    display: unset;
+    display: flex;
   }
 
   .desktop {
@@ -74,6 +74,7 @@
 
   .col {
     padding: 40px 16px;
+    background-color: #fef8ed !important;
   }
 
   .title {
@@ -84,5 +85,9 @@
   .formContainer {
     margin-top: 32x;
     margin-bottom: 56px;
+  }
+
+  .container {
+    align-items: flex-start;
   }
 }

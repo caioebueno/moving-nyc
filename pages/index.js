@@ -7,7 +7,7 @@ import FormPopUp from "../components/FormPopUp";
 import { useState } from "react";
 
 export default function Home() {
-  const [openForm, setOpenForm] = useState(true)
+  const [openForm, setOpenForm] = useState(false)
   const [addressInfo, setAddressInfo] = useState(null)
 
   const handleSubmit = (data) => {
@@ -25,6 +25,9 @@ export default function Home() {
       />}
       <div
         className={`${styles.container} ${styles.desktop}`}
+        style={{
+          overflow: openForm ? 'hidden' : 'auto'
+        }}
       >
 
         <div
@@ -70,6 +73,9 @@ export default function Home() {
       </div>
       <div
         className={`${styles.mobile} ${styles.container}`}
+        style={{
+          overflowY: openForm ? 'hidden' : 'auto'
+        }}
       >
         <div
           className={styles.topbar}

@@ -37,6 +37,7 @@
         z-index: 1;
         padding: 16px 8px 56px 8px;
         overflow-y: auto;
+        background-color: #fef8ed;
     }
 
     .closeButton {
