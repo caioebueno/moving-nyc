@@ -10146,10 +10146,10 @@
     "escalade" "^3.1.1"
     "picocolors" "^1.0.0"
 
-"upscale-forms@^0.1.38":
-  "integrity" "sha512-4PZYUS/VPWc4r0u6+buGC7EM29vn5dBNubUc4Lc/ts783NjJovB9/0Vv4x5QpVUZODtg6cX5ASLeuMfaZ/lruw=="
-  "resolved" "https://registry.npmjs.org/upscale-forms/-/upscale-forms-0.1.38.tgz"
-  "version" "0.1.38"
+"upscale-forms@^0.1.41":
+  "integrity" "sha512-bZAcERx2jA9qIL4+8jRwsr1VGGziGfqef3ELJWmyYq7RCjI+KXDRNTPGUxTnO0RRZPd7Ox1TiuDquZLNzMOs3g=="
+  "resolved" "https://registry.npmjs.org/upscale-forms/-/upscale-forms-0.1.41.tgz"
+  "version" "0.1.41"
   dependencies:
     "@clayui/button" "^3.56.0"
     "@clayui/css" "^3.64.0"
