@@ -5,6 +5,7 @@ import UpscaleForm from "upscale-forms";
 import Image from "next/image";
 import FormPopUp from "../components/FormPopUp";
 import { useState } from "react";
+import PhoneButton from "../components/PhoneButton";
 
 export default function Home() {
   const [openForm, setOpenForm] = useState(false)
@@ -82,8 +83,11 @@ export default function Home() {
         >
           <Image
             src="/logo.svg"
-            width={196.53}
-            height={47}
+            width={150}
+            height={31.9}
+          />
+          <PhoneButton 
+            phone="(929) 766 9288"
           />
         </div>
         <div
