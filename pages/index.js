@@ -26,6 +26,7 @@ export default function Home() {
         <title>MovingNYC - Cheap Moving on NYC</title>
         <link rel="icon" type="image/png" href="/favicon.png" />
         <meta name="description" content="Looking to move in New York City. We provide fast, affordable and quality moving inside NYC, get a free quote now to discorver we have the best price in town." />
+        <meta name="google-site-verification" content="Ljw0BSe2RsDAJ1JbI2zqMu_-ryqu-rFjIjKCgE3a5tw" />
       </Head>
       {openForm && <FormPopUp
         onClose={() => setOpenForm(false)}
