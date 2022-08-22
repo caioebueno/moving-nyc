@@ -6,6 +6,7 @@ import Image from "next/image";
 import FormPopUp from "../components/FormPopUp";
 import { useState } from "react";
 import PhoneButton from "../components/PhoneButton";
+import Head from "next/head";
 
 export default function Home() {
   const [openForm, setOpenForm] = useState(false)
@@ -21,6 +22,11 @@ export default function Home() {
 
   return (
     <>
+      <Head>
+        <title>MovingNYC - Cheap Moving on NYC</title>
+        <link rel="icon" type="image/png" href="/favicon.png" />
+        <meta name="description" content="Looking to move in New York City. We provide fast, affordable and quality moving inside NYC, get a free quote now to discorver we have the best price in town." />
+      </Head>
       {openForm && <FormPopUp
         onClose={() => setOpenForm(false)}
       />}
@@ -86,7 +92,7 @@ export default function Home() {
             width={150}
             height={31.9}
           />
-          <PhoneButton 
+          <PhoneButton
             phone="(929) 766 9288"
           />
         </div>
